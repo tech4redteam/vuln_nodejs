@@ -1,0 +1,9 @@
+version: "2"
+services:
+    web:
+        build: .
+        image: vuln_nodejs
+        container_name: vuln_nodejs
+        ports:
+            - 9999:9999
+
