@@ -26,6 +26,7 @@ function createApp() {
 
     res.json({
       status: 'ok',
+      ip: clientOrder.ipAddress,
     });
   });
 
